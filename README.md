@@ -85,3 +85,12 @@ DisplayCase.configure do |config|
   config.exhibits = [MyFirstExhibit,MySecondExhibit]
 end
 ```
+
+Testing
+-------
+A short note on testing the Gem.
+It is based on a MiniTest combination with RSpec matchers.
+
+```
+  ruby spec/lib/enumberable_spec.rb
+```
